@@ -7,14 +7,13 @@
 
 header {
     background-color: #1f2937;
-    min-height: 50vh;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
     padding: 20px;
+
 }
 
 .navbar-title {
@@ -29,7 +28,7 @@ header {
 
 .navbar-list {
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
 
 .item {
@@ -43,14 +42,14 @@ header {
 .header-modal {
     display: flex;
     color: #f9f8fa;
-    margin: 2em 5em;
+    padding: 50px;
+    margin: 32px 80px; 
     gap: 20px;
-    max-width: 80vw;
 }
 
 .text-container {
     color: #f9f8fa;
-    margin: 1em 5em;
+    margin: 16px 80px;
     flex: 2;
 }
 
@@ -65,18 +64,19 @@ header {
 }
 
 #btn1 {
-    margin-top: 0.5em;
+    margin-top: 8px;
     background-color: #3882f6;
     color: #e5e7eb;
+    font-weight: bold;
     border-radius: 10px;
     border: 1px solid #3882f6;
     padding: 10px;
-    min-width: 8vw;
+    min-width: 120px;
 }
 
 #logo {
-    min-height: 25vh;
-    min-width: 35vw;
+    min-height: 250px;
+    min-width: 550px;
     background: grey;
     align-content: center;
     text-align: center;
@@ -86,28 +86,22 @@ header {
 .main-container {
     display: flex;
     flex-direction: column;
-    background-color: #e5e7eb;
     text-align: center;
     font-size: 36px;
     font-weight: 900;
-    min-height: 50vh;
-    min-width: 50vw;
 }
 
 #random {
     margin: 1em 1em 0.5em;
 }
-
 .tile-container {
     display: flex;
     justify-content: center;
-    background-color: #e5e7eb;
     margin: 1em 0em 2em;
     gap: 0.5em;
 }
 
 .tile-set {
-    background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -120,7 +114,7 @@ header {
 .tile {
     min-height: 4em;
     border: 2px solid #3882f6;
-    background-color: #e5e7eb;
+    background-color: #f9f8fa;
     border-radius: 8px;
 }
 
@@ -156,11 +150,15 @@ header {
     padding: 1em;
     border: 2px solid #3882f6;
     background-color: #3882f6;
-    /* min-height: 10vh; */
     border-radius: 10px;
     color: #f9f8fa;
 }
 
+#signup-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
 
 #btn2 {
     border: 2px solid white;
@@ -168,8 +166,15 @@ header {
     color: #e5e7eb;
     border-radius: 10px;
     padding: 10px;
+    max-height: 8vh;
     min-width: 8vw; 
+    align-self: center;
 }
+
+#call {
+    margin-right: 250px;
+}
+
 .footer {
     display: flex;
     background: #1f2937;
