@@ -114,24 +114,21 @@ header {
 .tile {
     min-height: 4em;
     border: 2px solid #3882f6;
-    background-color: #f9f8fa;
     border-radius: 8px;
 }
 
 .quote-container {
     background-color: rgb(198, 197, 197);
-    min-height: 3em;
     display: flex;
     flex-direction: column;
-    padding: 1em;
+    padding: 35px;
 }
 
 #quote {
-    padding: 1em;
-    margin: 1em 0em 1em;
+    padding: 10px;
+    margin: 20px 0px;
     font-size: 36px;
     font-style: italic;
-    max-height: 40vh;
 }
 
 #thor {
