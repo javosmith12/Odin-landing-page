@@ -1,1 +1,2 @@
 # Odin-landing-page
+A landing page to help me better understand flex in CSS as well as HTML structure. A fun page I quickly put together and is very rudimentary but insightful and fun to complete. Let me know thoughts, concerns, anything to help me understand css and flex specifically!
